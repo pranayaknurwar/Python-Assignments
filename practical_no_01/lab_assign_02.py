@@ -6,6 +6,8 @@ email_id = input("Enter Email ID: ")
 total = 0
 monthly_purchases = []
 
+
+
 print("\nEnter Monthly Purchase Amounts:")
 for i in range(1, 13):
     amount = float(input("Enter purchase for month " + str(i) + ": "))
@@ -21,5 +23,6 @@ print("Email ID            :", email_id)
 print("\nMonthly Purchases:")
 for i in range(1, 13):
     print("Month", i, ":", monthly_purchases[i - 1])
+
 
 print("\nTotal Annual Purchase :", total)
