@@ -9,6 +9,7 @@ while True:
 
 print("\nPrime numbers between", start, "and", end, "are:")
 
+
 for num in range(start, end + 1):
     is_prime = True
     
