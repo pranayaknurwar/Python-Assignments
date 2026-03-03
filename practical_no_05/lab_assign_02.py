@@ -1,0 +1,7 @@
+prices = tuple(map(int, input("Enter prices separated by space: ").split()))
+print("Total items sold:", len(prices))
+print("Cheapest price:", min(prices))
+print("Costliest price:", max(prices))
+print("Ascending order:", tuple(sorted(prices)))
+costliest = max(prices)
+print("Number of costliest items sold:", prices.count(costliest))
